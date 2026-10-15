@@ -6,9 +6,10 @@
 
 ## [Unreleased]
 
-## [0.1.0] - 2026-10-15
+## [1.0.0] - 2026-10-15
 
 ### Added
 
 - 初始化工程：.gitignore、VERSION、CHANGELOG
 - 建立分支模型：main / develop / feature / release / hotfix
+- 串口驱动骨架（初始化、发送、接收接口）
