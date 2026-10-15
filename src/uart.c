@@ -8,8 +8,7 @@
 #include "uart.h"
 
 /* USART1 BRR 寄存器值: 72MHz / (16 * 115200) = 39.06 -> 0x0271 */
-/* TODO(hotfix待验证): 当前值按 36MHz 主频误算, 待实测修正 */
-#define UART_BRR_115200  0x0138U
+#define UART_BRR_115200  0x0271U
 
 int uart_init(uint32_t baud)
 {
