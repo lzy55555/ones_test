@@ -1,0 +1,42 @@
+# ===== 编译输出（固件镜像只随 Release 附件分发，不入库）=====
+build/
+output/
+Debug/
+Release/
+Objects/
+Listings/
+*.o
+*.obj
+*.d
+*.crf
+*.lst
+*.map
+*.elf
+*.axf
+*.bin
+*.hex
+*.eep
+*.lss
+*.srec
+
+# ===== Keil MDK =====
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+
+# ===== IAR EWARM =====
+*.dep
+*.ewt
+Backup*/
+settings/
+
+# ===== STM32CubeIDE / Eclipse =====
+.settings/
+*.launch
+.project
+.cproject
+
+# ===== IDE / 系统 =====
+.vscode/
+.idea/
+.DS_Store
